@@ -1,4 +1,5 @@
 import React, {useState, useEffect, useRef} from 'react';
+import {Analytics} from '@vercel/analytics/react';
 import {SyncOutlined, YoutubeOutlined, SearchOutlined} from '@ant-design/icons';
 import {
     Layout,
@@ -417,7 +418,9 @@ const App: React.FC = () => {
     }, [data]);
 
     return (
-        <Layout style={{minHeight: '100%', padding: '10px', backgroundColor: '#ffffff7f'}}>
+        <>
+            <Analytics />
+            <Layout style={{minHeight: '100%', padding: '10px', backgroundColor: '#ffffff7f'}}>
             <div className={'chat-pannel'}>
                 <div className={'alive-cnt'} onClick={() => {
                     setChatVis((ChatVis + 1) % 3);
@@ -654,6 +657,7 @@ const App: React.FC = () => {
                 </Drawer>
             </Content>
         </Layout>
+        </>
     );
 }
 
