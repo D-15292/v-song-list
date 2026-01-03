@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="Black">
     <option name="sdkName" value="Python 3.11 (v-song-list-main)" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_25" project-jdk-name="ms-21" project-jdk-type="JavaSDK" />
+=======
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.9" project-jdk-type="Python SDK" />
+>>>>>>> e391105a309f8d6ba0cfe1288f56413983bbdd7a
 </project>

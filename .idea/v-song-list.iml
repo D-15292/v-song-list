@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
+<<<<<<< HEAD
   <component name="FacetManager">
     <facet type="Python" name="Python">
       <configuration sdkName="Python 3.11 (v-song-list-main)" />
@@ -7,6 +8,9 @@
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
+=======
+  <component name="NewModuleRootManager">
+>>>>>>> e391105a309f8d6ba0cfe1288f56413983bbdd7a
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
@@ -14,6 +18,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+<<<<<<< HEAD
     <orderEntry type="library" name="Python 3.11 (v-song-list-main) interpreter library" level="application" />
+=======
+>>>>>>> e391105a309f8d6ba0cfe1288f56413983bbdd7a
   </component>
 </module>
